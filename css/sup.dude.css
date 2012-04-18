@@ -49,6 +49,7 @@ header {
     text-align: center;
     margin-bottom: 10px; }
   #projects ul {
+    margin: 0;
     list-style: none;
     text-align: center; }
     #projects ul li {
