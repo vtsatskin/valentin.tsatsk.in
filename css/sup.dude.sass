@@ -1,0 +1,129 @@
+// Random Colors Found
+// $blue: #04BFBF
+// $light-teal: #CAFCD8
+// $yellow: #F7E967
+// $light-green: #A9CF54
+// $green: #588F27
+// $dark-grey: #222
+// $light-brown: #5F5A28
+
+$blue: #229DBA
+$light-teal: #CAFCD8
+$dark-grey: #3A3A3A
+$medium-grey: #666666
+$light-grey: #D5D5D5
+
+$spacing: 20px
+$half-spacing: 10px
+
+=rounded-corners($size)
+  -moz-border-radius: $size
+  -webkit-border-radius: $size
+  border-radius: $size
+
+=box-shadow($color)
+  -webkit-box-shadow: 0px 0px 10px 0px lighten($color, 40%)
+  -moz-box-shadow: 0px 0px 10px 0px lighten($color, 40%)
+  box-shadow: 0px 0px 10px 0px lighten($color, 40%)
+
+
+// TODO: clean this up
+$horizontal_offset: 0px
+$vertical_offset: 0px
+$blur_radius: 5px
+$shadow_color: rgba( 0, 0, 0, .30)
+@mixin text-shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius)
+  $value: $h $v $b $c
+  -moz-text-shadow: $value
+  -webkit-text-shadow: $value
+  -o-text-shadow: $value
+  text-shadow: $value
+
+body
+  background: white
+  padding-top: $spacing
+
+// Overide Bootstrap's defaults
+body, p
+  font-size: 13px
+  font-family: 'Oxygen', serif
+  @include text-shadow
+
+h1, h2
+  font-weight: normal
+
+h1
+  font-family: 'Imprima', sans-serif
+
+h2
+  font-family: 'Bree Serif', serif
+  .arrow
+    font-size: 45px
+    font-weight: bold
+
+
+// Sidebar
+
+header, #projects, #contact
+  color: white
+  padding: $spacing
+  box-sizing: border-box
+  +rounded-corners(5px)
+
+header
+  background: $blue
+  margin-bottom: $spacing
+  span
+    font-size: 15px
+  a
+    color: white
+    &:hover
+      color: white
+      text-decoration: none
+
+#projects
+  color: white
+  background: $medium-grey
+  margin-bottom: $spacing
+  h2
+    text-align: center
+    margin-bottom: $half-spacing
+  ul
+    list-style: none
+    text-align: center
+    li
+      margin: 0 5px 10px 5px
+      display: inline-block
+      width: 150px
+      a
+        display: block
+        background: #777
+        padding: 5px
+        font-weight: bold
+        color: white
+        +rounded-corners(3px)
+
+        transition: background-color 0.5s linear
+        -moz-transition: background-color 0.5s linear
+        -o-transition: background-color 0.5s linear
+        -webkit-transition: background-color 0.5s linear
+
+        &:hover, &.selected
+          text-decoration: none
+          background: $blue
+
+#contact
+  background: $light-grey
+  color: #222
+
+// Content Styles
+
+#home
+  img
+    width: 100%
+    +rounded-corners(5px)
+    
+// Utility Styles
+
+.centered
+  text-align: center

@@ -1,0 +1,86 @@
+body {
+  background: white;
+  padding-top: 20px; }
+
+body, p {
+  font-size: 13px;
+  font-family: "Oxygen", serif;
+  -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  -o-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); }
+
+h1, h2 {
+  font-weight: normal; }
+
+h1 {
+  font-family: "Imprima", sans-serif; }
+
+h2 {
+  font-family: "Bree Serif", serif; }
+  h2 .arrow {
+    font-size: 45px;
+    font-weight: bold; }
+
+header, #projects, #contact {
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+header {
+  background: #229dba;
+  margin-bottom: 20px; }
+  header span {
+    font-size: 15px; }
+  header a {
+    color: white; }
+    header a:hover {
+      color: white;
+      text-decoration: none; }
+
+#projects {
+  color: white;
+  background: #666666;
+  margin-bottom: 20px; }
+  #projects h2 {
+    text-align: center;
+    margin-bottom: 10px; }
+  #projects ul {
+    list-style: none;
+    text-align: center; }
+    #projects ul li {
+      margin: 0 5px 10px 5px;
+      display: inline-block;
+      width: 150px; }
+      #projects ul li a {
+        display: block;
+        background: #777777;
+        padding: 5px;
+        font-weight: bold;
+        color: white;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        transition: background-color 0.5s linear;
+        -moz-transition: background-color 0.5s linear;
+        -o-transition: background-color 0.5s linear;
+        -webkit-transition: background-color 0.5s linear; }
+        #projects ul li a:hover, #projects ul li a.selected {
+          text-decoration: none;
+          background: #229dba; }
+
+#contact {
+  background: #d5d5d5;
+  color: #222222; }
+
+#home img {
+  width: 100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.centered {
+  text-align: center; }

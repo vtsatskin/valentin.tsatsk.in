@@ -1,0 +1,65 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %title valentin tsatskin
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+    %meta{:content => "", :name => "description"}
+    %meta{:content => "", :name => "author"}
+    / Le styles
+    %link{:href => "css/bootstrap.min.css", :rel => "stylesheet"}
+    %link{:href => "css/bootstrap-responsive.css", :rel => "stylesheet"}
+    %link{:href => "css/sup.dude.css", :rel => "stylesheet"}
+    %link{:href => "http://fonts.googleapis.com/css?family=PT+Mono|Oxygen|Imprima|Bree+Serif", :rel => "stylesheet", :type => "text/css"}
+    / Le HTML5 shim, for IE6-8 support of HTML5 elements
+    /[if lt IE 9]
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    / Le fav and touch icons
+    / %link{:href => "ico/favicon.ico", :rel => "shortcut icon"}
+    / %link{:href => "ico/apple-touch-icon-114-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "114x114"}
+    / %link{:href => "ico/apple-touch-icon-72-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "72x72"}
+    / %link{:href => "ico/apple-touch-icon-57-precomposed.png", :rel => "apple-touch-icon-precomposed"}
+  %body
+    .container
+      .row
+        .span5
+          %header
+            %h1.nav-items
+              %a(href="#home") Valentin Tsatskin
+            %span
+              I love code. I'm also an
+              %abbr(title="Candidate for a Bachelor of Applied Science (BASc) in Systems Design Engineering at the University of Waterloo")
+                Engineer-In-Training
+          #projects
+            %h2 My Projects
+            %ul.nav-items
+              %li
+                %a(href="#HBL") HBL (#banana logger)
+              %li
+                %a(href="#uw-don-tracker") UW Don Tracker
+              %li
+                %a(href="#twitter-timeline") Twitter-Timeline
+              %li
+                %a(href="#valentin.tsatsk.in") valentin.tsatsk.in
+          #contact
+            %h2 My Info
+            placeholder
+
+        #content.span7
+          #home.active
+            %h2.centered
+              %span.arrow &darr;
+              That's me!
+              %span.arrow &darr;
+            %img{:src => "img/me.jpg"}
+          #HBL
+            %h2 HBL
+          #uw-don-tracker
+            %h2 UW Don Tracker
+          #twitter-timeline
+            %h2 Twitter-Timeline
+          #valentin.tsatsk.in
+            %h2 valentin.tsatsk.in
+    / Placed at the end of the document so the pages load faster
+    %script{:src => "js/jquery-1.7.2.min.js"}
+    %script{:src => "js/vt.js"}
