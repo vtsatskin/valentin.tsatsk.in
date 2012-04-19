@@ -5,22 +5,19 @@ body {
 body, p {
   font-size: 16px;
   font-family: "Oxygen", serif;
-  -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  -o-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); }
+  -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  -o-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: normal; }
 
 h1 {
   font-family: "Imprima", sans-serif; }
 
-h2 {
+h2, h3 {
   font-family: "Bree Serif", serif; }
-  h2 .arrow {
-    font-size: 45px;
-    font-weight: bold; }
 
 h3 .label {
   margin-top: 4px; }

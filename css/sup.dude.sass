@@ -31,7 +31,7 @@ $half-spacing: 10px
 $horizontal_offset: 0px
 $vertical_offset: 0px
 $blur_radius: 5px
-$shadow_color: rgba( 0, 0, 0, .30)
+$shadow_color: rgba( 0, 0, 0, .20)
 @mixin text-shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius)
   $value: $h $v $b $c
   -moz-text-shadow: $value
@@ -49,17 +49,15 @@ body, p
   font-family: 'Oxygen', serif
   @include text-shadow
 
-h1, h2
+h1, h2, h3
   font-weight: normal
 
 h1
   font-family: 'Imprima', sans-serif
 
-h2
+h2, h3
   font-family: 'Bree Serif', serif
-  .arrow
-    font-size: 45px
-    font-weight: bold
+
 h3
   .label
     margin-top: 4px
