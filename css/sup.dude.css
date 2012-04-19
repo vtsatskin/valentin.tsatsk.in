@@ -3,7 +3,7 @@ body {
   padding-top: 20px; }
 
 body, p {
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Oxygen", serif;
   -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
@@ -21,6 +21,9 @@ h2 {
   h2 .arrow {
     font-size: 45px;
     font-weight: bold; }
+
+h3 .label {
+  margin-top: 4px; }
 
 header, #projects, #contact {
   color: white;
@@ -40,6 +43,18 @@ header {
     header a:hover {
       color: white;
       text-decoration: none; }
+
+ul.icons li {
+  line-height: 30px !important; }
+ul.icons .ruby {
+  list-style-image: url("../img/ruby.png"); }
+ul.icons .sinatra {
+  list-style-image: url("../img/sinatra.png"); }
+ul.icons .mongodb {
+  list-style-image: url("../img/mongodb.png"); }
+ul.icons .none {
+  list-style: none;
+  margin-left: -25px; }
 
 #projects {
   color: white;
@@ -76,8 +91,10 @@ header {
 #contact {
   background: #d5d5d5;
   color: #222222; }
+  #contact h2 {
+    color: #555555; }
 
-#home img {
+#home img, #uw-don-tracker img {
   width: 100%;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -85,3 +102,20 @@ header {
 
 .centered {
   text-align: center; }
+
+.monospace {
+  font-size: 14px;
+  font-family: "PT Mono", serif; }
+
+.label {
+  background-color: #777777; }
+  .label:hover {
+    background-color: #6a6a6a; }
+
+.label-info {
+  background-color: #229dba; }
+  .label-info:hover {
+    background-color: #1e8ba4; }
+
+[class*="span"], #projects, #header {
+  margin-bottom: 20px !important; }

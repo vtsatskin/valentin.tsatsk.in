@@ -34,32 +34,90 @@
             %h2 My Projects
             %ul.nav-items
               %li
-                %a(href="#HBL") HBL
-              %li
                 %a(href="#uw-don-tracker") UW Don Tracker
+              %li
+                %a(href="#HBL") HBL
               %li
                 %a(href="#twitter-timeline") Twitter-Timeline
               %li
                 %a(href="#valentin.tsatsk.in") valentin.tsatsk.in
           #contact
             %h2 My Info
-            placeholder
+            %p
+              %a.label.label-info(href='https://github.com/vtsatskin/') GitHub
+              %a.label.label-info(href='https://twitter.com/vtsatskin/') Twitter
+              %span.nav-items
+                %a.label.label-inverse(href='#resume') Resume
+            %p.monospace
+              %span.label Mobile
+              +1 226 972 0662
+              %br
+              %span.label Email
+              val@valtsatskin.com
 
         #content.span7
-          #home.active
-            %h2.centered
-              %span.arrow &darr;
-              That's me!
-              %span.arrow &darr;
+          %section#home.active
             %img{:src => "img/me.jpg"}
-          #HBL
+
+          %section#HBL
             %h2 HBL
-          #uw-don-tracker
+            %p A distributed IRC channel logger
+            %h3 Geek Specs
+            %ul.icons
+              %li.ruby
+                Ruby
+                %ul
+                  %li.sinatra Sinatra
+                  %li MongoMapper
+                  %li Journeta P2P
+                  %li Rspec
+                  %li HAML
+                  %li Cinch IRC
+              %li.mongodb MongoDB
+              %li Redis
+              %li Bootstrap
+              %li jQuery
+
+          %section#uw-don-tracker
             %h2 UW Don Tracker
-          #twitter-timeline
+            %p Couldsourcing uWaterloo Residence Don locations
+            %p
+              %em Keeping residence live since 2012
+            .row
+              .span4
+                %img(src='img/uw-don-tracker.png')
+              .span2
+                %h3
+                  Geek Specs
+                %ul.icons
+                  %li.none
+                    %a.label(href='https://github.com/vtsatskin/UW-Don-Tracker')
+                      github
+                  %li.ruby
+                    Ruby
+                    %ul
+                      %li.sinatra Sinatra
+                      %li Mongomapper
+                  %li.mongodb MongoDB
+                  %li Phonegap
+                  %li jQuery
+                  %li jQuery Mobile
+                  %li Knockout JS
+
+          %section#twitter-timeline
             %h2 Twitter-Timeline
-          #valentin.tsatsk.in
+
+          %section#valentin.tsatsk.in
             %h2 valentin.tsatsk.in
+            %p My personal website (hint: you're currently viewing it!)
+            %h3 Geek Stuff
+            %ul.icons
+              %li.none
+                %a.label(href='https://github.com/vtsatskin/valentin.tsatsk.in')
+                  github
+              %li HAML
+              %li Bootstrap
+              %li jQuery
     / Placed at the end of the document so the pages load faster
     %script{:src => "js/jquery-1.7.2.min.js"}
     %script{:src => "js/vt.js"}
