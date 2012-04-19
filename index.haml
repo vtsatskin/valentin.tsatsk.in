@@ -56,9 +56,11 @@
               val@valtsatskin.com
 
         #content.span7
+          %a(name='home')
           %section#home.active
             %img{:src => "img/me.jpg"}
 
+          %a(name='HBL')
           %section#HBL
             %h2 HBL
             %p A distributed IRC channel logger
@@ -78,6 +80,7 @@
               %li Bootstrap
               %li jQuery
 
+          %a(name='uw-don-tracker')
           %section#uw-don-tracker
             %h2 UW Don Tracker
             %p Mobile crowdsourcing of uWaterloo Residence Don locations
@@ -104,6 +107,7 @@
                   %li jQuery Mobile
                   %li Knockout JS
 
+          %a(name='twitter-timeline')
           %section#twitter-timeline
             %h2 Twitter-Timeline
 
@@ -120,4 +124,5 @@
               %li jQuery
     / Placed at the end of the document so the pages load faster
     %script{:src => "js/jquery-1.7.2.min.js"}
+    %script{:src => "js/jquery.scrollTo-1.4.2-min.js"}
     %script{:src => "js/vt.js"}

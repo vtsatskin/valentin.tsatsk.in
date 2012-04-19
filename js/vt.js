@@ -15,6 +15,7 @@ $(function(){
     active.fadeOut(function(){
       active.removeClass('active')
       activated.addClass('active').fadeIn()
+      $.scrollTo(activated, 750);
     })
   })
   
