@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!-- TemplateBeginEditable name="doctitle" -->
+			<title>Sigma Carpet Cleaning</title>
+		<!-- TemplateEndEditable -->
+		<link href="../style.css" rel="stylesheet" type="text/css" />
+		<!-- TemplateBeginEditable name="Meta" --><!-- TemplateEndEditable -->
+	</head>
+
+	<body>
+<div id="container">
+			<div id="header">
+					<a href="./"><img src="../images/header.gif" alt="Sigma Carpet Cleaning" width="504" height="80" /></a>			
+			</div>
+
+			<ul id="nav">
+				<!-- TemplateBeginEditable name="Navigation" -->
+					<li><a href="index.html" class="cur">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				<!-- TemplateEndEditable -->
+			</ul>
+			
+			<div id="body">
+				<!-- TemplateBeginEditable name="Body" -->
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam sit amet dolor non augue imperdiet rhoncus. Duis elementum orci eu augue. Maecenas est. Ut interdum consectetuer nibh. Duis lorem elit, volutpat sit amet, adipiscing volutpat, ullamcorper id, eros. Etiam elementum pulvinar dolor. Sed viverra. Donec et augue non mi consequat vulputate. In laoreet porta massa. Mauris sit amet tortor vel enim vehicula bibendum. Maecenas non neque. Nulla tristique nunc elementum augue. Fusce pretium purus in ligula. Nulla mollis massa nec erat. Nunc pellentesque urna gravida ipsum. In facilisis.<br /><br />
+	
+	Morbi neque velit, congue rutrum, cursus non, condimentum sed, dolor. Aenean at mauris. Donec id risus. Morbi suscipit diam a tellus. Phasellus ac tortor. Phasellus pharetra luctus ante. Aenean quis arcu. Aliquam erat volutpat. Mauris ut arcu. Phasellus eros. Nam lobortis urna quis sapien. Phasellus convallis turpis nec ante. Ut pretium, velit quis volutpat bibendum, massa eros tempus metus, nec molestie nisi lacus in nisi. Aliquam suscipit, neque in auctor.
+	tesque, odio urna congue velit, ac consectetuer elit lectus et nibh. Donec ut odio quis risus pretium malesuada. Aliquam ullamcorper. Aliquam quis tellus vitae est aliquam rutrum. Curabitur eu libero ut ligula suscipit semper. Mauris venenatis.
+				<!-- TemplateEndEditable -->
+			</div>
+
+			<div id="footer">
+				Website &copy; 2007 Sigma Carpet Cleaning
+			</div>
+			<span class="design">Design by <a href="http://valtsatskin.com">Val Tsatskin</a></span>
+		</div>
+		</body>
+</html>

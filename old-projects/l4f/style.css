@@ -1,0 +1,61 @@
+* { margin: 0; padding: 0; }
+body { background: repeat-y url('images/bg_r.png') #120b06 center top; font-family: Arial, Helvetica, sans-serif; }
+body, html { height: 100%; } /* 100% height hack */
+
+
+#wrap { background: no-repeat top center url('images/bg.png'); margin: auto; width: 753px; padding: 0 75px;
+	min-height: 100%; height: auto !important; height: 100%; /* 100% height hack */
+}
+
+#header { position: relative; margin-bottom: 10px; }
+	h1 { line-height: 0; }
+	h1 img { border: 0; }
+	
+	#login { width: 250px; position: absolute; bottom: 10px; right: 0; top: 20px; }
+
+#nav { list-style: none; color: #FFF; height: 45px; margin-bottom: 10px; }
+	#nav li { float: left; margin-right: 10px; text-align: center; font-size: 18px; font-weight: bold; padding: 10px 15px 13px 15px; }
+	#nav li a { color: inherit; text-decoration: inherit; display: block; }
+	
+	#nav li#search { text-align: left; }
+		#nav li#search label { margin-right: 10px; float: left; }
+		#nav li#search input { border: 1px solid #432813; background: #6f4924;  color: #FFF; padding: 2px; font-size: 14px; width: 120px; float: left; }
+		
+#twitter { margin-top: 25px; color: #FFF; font-size: 14px; }
+	#twitter img { float: left; z-index: 1; position: relative; top: -26px; left: -11px; }
+	
+/* Corners */
+	/* General */
+	.left, .right { width: 10px; top: 10px; bottom: 10px; position: absolute; }
+		.left { float: left; left: 0; }
+		.right { float: right; right: 0; }
+	
+	.top, .bot { height: 10px; position: absolute; left: 0; right: 0; }
+		.top { top: 0; }
+		.bot { bottom: 0; }
+		.top .left, .top .right, .bot .left, .bot .right { height: 10px; position: static; }
+	
+	/* Green */
+	.green { background: #7fb929; position: relative; padding: 10px; }
+	.green .top { background: url('images/green_crn_top.png'); }
+		.green .top .left { background: url('images/green_crn_tl.png'); }
+		.green .top .right { background: url('images/green_crn_tr.png'); }
+	.green .bot { background: url('images/green_crn_bot.png'); }
+		.green .bot .left { background: url('images/green_crn_bl.png'); }
+		.green .bot .right { background: url('images/green_crn_br.png'); }
+	.green .left { background: url('images/green_crn_left.png'); }
+	.green .right { background: url('images/green_crn_right.png'); }
+	
+	/* Brown */
+	.brown { background: #5a3519; position: relative; padding: 10px; }
+	.brown .top { background: url('images/brown_crn_top.png'); }
+		.brown .top .left { background: url('images/brown_crn_tl.png'); }
+		.brown .top .right { background: url('images/brown_crn_tr.png'); }
+	.brown .bot { background: url('images/brown_crn_bot.png'); }
+		.brown .bot .left { background: url('images/brown_crn_bl.png'); }
+		.brown .bot .right { background: url('images/brown_crn_br.png'); }
+	.brown .left { background: url('images/brown_crn_left.png'); }
+	.brown .right { background: url('images/brown_crn_right.png'); }
+
+
+.clear { clear: both; }

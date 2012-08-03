@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #FFFFFF;
+	color: #333300;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 8px;
+}
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header {
+	height: 80px;
+	background: url(images/header-bg.gif);
+	border: 1px solid #999966;
+	margin-bottom: 3px;
+	padding: 0;
+}
+#header img {
+	border: 0;
+	margin-bottom: -4px;
+}
+#nav {
+	height: 18px;
+	background: url(images/nav-bg.gif);
+	color: #CCCC99;
+	padding: 6px;
+	font-size: 14px;
+	font-style: italic;
+	border: 1px solid #003300;
+	margin: 0;
+	list-style-type: none;
+}
+#nav li {
+	float: left;
+	margin-right: 6px;
+}
+#nav a {
+	color: #CCCC99;
+	text-decoration: none;
+}
+#nav a:hover {
+	color: #CCFF66;
+}
+#nav a.cur {
+	color: #FFFFFF;
+	font-style: normal;
+}
+#nav a:hover.cur {
+	color: #FFFFFF;
+}
+#body {
+	margin: 15px;
+	margin-left: 4%;
+	margin-right: 4%;
+	font-size: 0.9em;
+}
+#footer {
+	background: #dcdcbe;
+	border: 1px solid #999966;
+	padding: 6px;
+	color: #999966;
+	font-size: 12px;
+}
+#footer a {
+	color: #999933;
+	text-decoration: none;
+}
+.design {
+	float: right;
+	font-size: 10px;
+	color: #CCCCCC;
+}
+.design a {
+	color: #AAAAAA;
+	text-decoration: none;
+}
+p {
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.desc {
+	color: #666666;
+	font-size: 0.8em;
+}
+.title {
+	font-size: 1.2em;
+}
+.first {
+	margin-bottom: 1.5em;
+}
+#body ul li ul li {
+	margin-bottom: 0.5em;
+}
+.clear {
+	clear: both;
+}
+.pic {
+	float: right;
+	border: 1px solid #666666;
+	margin: 4px
+}
+#portfolio {
+	background: url('images/portfolio/portfolio_bg.gif') repeat-x;
+	margin: -8px;
+	margin-bottom: 8px;
+}
+#portfolio #portfolio_back {
+	margin-top: 45px;
+	margin-right: 5px;
+}

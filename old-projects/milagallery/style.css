@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0; }
+img { border: 0; }
+
+body { background: #1c1c1c; padding: 30px; font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; color: #a8a8a8; }
+h1 { float: left; }
+ul#nav { float: right; height: 65px; list-style-type: none; }
+ul#nav li { float: left; margin-left: 20px;  }
+ul#latest { list-style-type: none; clear: both; margin-right: -20px; padding-top: 10px; }
+ul#latest li { float: left; margin-right: 20px; }
+
+#artists { margin-top: 20px; clear: both; padding-top: 20px; font-size: 14px; }
+#artists div { float: left; width: 50%; }
+#artists .profilepic { float: left; margin-right: 20px; }
+#artists div p { padding-right: 20px; }
+
+#footer { margin: auto; padding-top: 20px; clear: both; font-size: 14px; text-align: center; }
+
+#wrapper { width: 1053px; margin-left: auto; margin-right: auto; }
+.clear { clear: both; }

@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0; }
+#header { background: url('images/header-bg.png') repeat-x; }
+h1 { line-height: 0; }
+#header .sep { height: 7px; background: #f08b14; }
+#landing { background: #565656; padding: 10px; text-align: center; }
+	#landing img { border: 0; display: block; margin: auto; }
+#footernav { margin-top: 10px; font-size: 16px; font-family: Verdana; color: #565656; letter-spacing: 1.5px; font-weight: normal; text-align: center; } 

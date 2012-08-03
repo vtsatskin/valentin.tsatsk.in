@@ -1,0 +1,124 @@
+body {
+	background: #000;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-family: Geneva, Tahoma, sans-serif;
+	font-size: 0.7em;
+	color: #CCC;
+}
+#header {
+	background: url(images/header_bg.gif);
+	height: 49px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header a {
+	color: #FFF;
+	text-decoration: none;
+}
+#nav {
+	background: url(images/nav_bg.gif);
+	height: 25px;
+	font: normal 10px/1 Lucida Grande, Lucida Sans Unicode, sans-serif;
+	color: #FFF;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+#nav ul li {
+	float: left;
+	display: block;
+	list-style-type: none;
+}
+#nav ul li a {
+	color: #FFF;
+	padding-right: 10px; padding-left: 10px; padding-top: 7px; padding-bottom: 8px;
+	display: block;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	background: url(images/nav_hover.gif);
+}
+#nav ul li.cur a {
+	background: url(images/nav_cur.gif);
+}
+#nav ul li.cur a:hover {
+	background: url(images/nav_cur.gif);
+}
+#top { background: url(images/bar_top_bg.gif); }
+#bot { background: url(images/bar_bot_bg.gif); }
+#content {
+	background: #262626;
+	border-left: #303030 2px solid;
+	border-right: #303030 2px solid;
+	padding: 10px;
+}
+#footer {
+	background: #262626;
+	border: #616060 2px solid; border-top: 0;
+	text-align: right;
+	font-size: 0.9em;
+	padding: 0.5em;
+	color: #666;
+}
+#footer a {
+	color: #999;
+}
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.bar { height: 36px; }
+b, strong { color: #FFF; }
+i, em { color: #666; }
+u { text-decoration: none; border-bottom: dotted 0.1em #FFF; color: #FFF; }
+a { color: #b66712; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 {
+	font-size: 24px;
+	line-height: 2;
+	color: #FFF;
+	font-weight: normal;
+	margin: 0;
+}
+h2 { 
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+	color: #FFF;
+	line-height: normal;
+	font-weight: normal;
+}
+h2 a{
+	color: #FFF;
+	text-decoration: none;
+}
+h2 a:hover{
+	text-decoration: underline;
+}
+h3 {
+	font-size: 0.9em;
+	color: #666;
+	float: right;
+	line-height: 2;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+hr {
+	clear: both;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	margin-bottom: 1em;
+	height: 3px;
+	color: #666;
+	background-color: #666;
+	border: 0; 
+}
+p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+}
