@@ -4,11 +4,7 @@ body {
 
 body, p {
   font-size: 16px;
-  font-family: "Oxygen", serif;
-  -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  -o-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
+  font-family: "Oxygen", serif; }
 
 h1, h2, h3 {
   font-weight: normal; }
@@ -41,15 +37,15 @@ header {
       color: white;
       text-decoration: none; }
 
-ul.icons li {
+ul.spaced li {
   line-height: 30px !important; }
-ul.icons .ruby {
+ul.spaced .ruby {
   list-style-image: url("../img/ruby.png"); }
-ul.icons .sinatra {
+ul.spaced .sinatra {
   list-style-image: url("../img/sinatra.png"); }
-ul.icons .mongodb {
+ul.spaced .mongodb {
   list-style-image: url("../img/mongodb.png"); }
-ul.icons .none {
+ul .none {
   list-style: none;
   margin-left: -25px; }
 
@@ -96,6 +92,15 @@ ul.icons .none {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px; }
+
+/* Splash screen image overlay text */
+#home p {
+  margin-top: -1em;
+  text-align: right;
+  color: white;
+  font-size: 7em;
+  line-height: 1em;
+  margin-right: 0.1em; }
 
 .centered {
   text-align: center; }
