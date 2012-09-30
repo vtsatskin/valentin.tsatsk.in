@@ -93,15 +93,6 @@ ul .none {
   -webkit-border-radius: 5px;
   border-radius: 5px; }
 
-/* Splash screen image overlay text */
-#home p {
-  margin-top: -1em;
-  text-align: right;
-  color: white;
-  font-size: 7em;
-  line-height: 1em;
-  margin-right: 0.1em; }
-
 .centered {
   text-align: center; }
 
