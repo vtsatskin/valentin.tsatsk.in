@@ -20,6 +20,7 @@ h3 .label {
 
 header, #projects, #contact {
   color: white;
+  text-align: center;
   padding: 20px;
   box-sizing: border-box;
   -moz-border-radius: 5px;
@@ -54,12 +55,10 @@ ul .none {
   background: #666666;
   margin-bottom: 20px; }
   #projects h2 {
-    text-align: center;
     margin-bottom: 10px; }
   #projects ul {
     margin: 0;
-    list-style: none;
-    text-align: center; }
+    list-style: none; }
     #projects ul li {
       margin: 0 5px 10px 5px;
       display: inline-block;
