@@ -26,9 +26,16 @@
       margin-bottom: 0;
     }
     ul li {
+      background: white;
       margin-bottom: 1em;
       border-left: 0.2em solid #ccc;
       padding-left: 0.5em;
+
+      -webkit-transition: background-color 0.5s linear;
+      -moz-transition: background-color 0.5s linear;
+      -ms-transition: background-color 0.5s linear;
+      -o-transition: background-color 0.5s linear;
+      transition: background-color 0.5s linear;
     }
     .row { margin-top: 2em; }
     .white {
@@ -70,6 +77,10 @@
         margin: 0;
       } 
     }
+
+    .highlight-dev, .highlight-design, .highlight-founded {
+      background: #FDFDB4;
+    }
   </style>
 </head>
 
@@ -96,7 +107,11 @@
         <div class="white">
           <img src="headshot.png" alt="A Headshot of Me." id="headshot" class="img-polaroid">
           <h1>Valentin Tsatskin</h1>
-          <p>Creator | Hacker | Designer</p>
+          <div class="btn-group" data-toggle="buttons-checkbox" id="filters">
+            <button type="button" class="btn" data-name="founded" rel="tooltip" title="Highlight things I've founded">Founder</button>
+            <button type="button" class="btn" data-name="design" rel="tooltip" title="Highlight things I've designed">Designer</button>
+            <button type="button" class="btn" data-name="dev" rel="tooltip" title="Highlight things I've developed">Developer</button>
+          </div>
         </div>
         <div class="white">
           <h2>Education</h2>
@@ -107,19 +122,19 @@
             </li>
             <li>
               Machine Learning
-              <div class="secondary">Stanford (Coursera)</div>
+              <div class="secondary">Stanford University (Coursera)</div>
             </li>
             <li>
               Human Computer Interaction
-              <div class="secondary">Stanford (Coursera)</div>
-            </li>
-            <li>
-              Cryptography I
-              <div class="secondary">Stanford (Coursera)</div>
+              <div class="secondary">Stanford University (Coursera)</div>
             </li>
             <li>
               Functional Programming Principals in Scala
               <div class="secondary">EPFL (Coursera)</div>
+            </li>
+            <li>
+              Heterogeneous Parallel Programming
+              <div class="secondary">University of Illinois (Coursera)</div>
             </li>
           </ul>
         </div>
@@ -132,8 +147,8 @@
             <span class="date">Sept&nbsp;-&nbsp;Dec,&nbsp;2012</span>
           </p>
           <ul>
-            <li>Designed and developed learning tools used by millions of students worldwide</li>
-            <li>Performed user experience analyses on products by examining user goals, values, and workflows</li>
+            <li data-dev data-design>Designed and developed learning tools used by millions of students worldwide</li>
+            <li data-design>Performed user experience analyses on products by examining user goals, values, and workflows</li>
             <li>Identified and fixed several security issues relating to SQL injection and XSRF</li>
             <li><code>C#, ASP.NET, MS SQL, and SVN</code></li>
           </ul>
@@ -144,8 +159,8 @@
             <span class="date">Jan&nbsp;-&nbsp;April,&nbsp;2012</span>
           </p>
           <ul>
-            <li>Designed and developed a discussion platform utilizing social networks</li>
-            <li>Responsible for design, development and automated testing of product's vital viral components</li>
+            <li data-dev data-design>Designed and developed a discussion platform utilizing social networks</li>
+            <li data-dev data-design>Responsible for design, development and automated testing of product's vital viral components</li>
             <li>Created and optimized existing performance critical components</li>
             <li>Researched, introduced and integrated test-driven development into development team's workflow</li>
             <li>Tech: <code>Ruby on Rails, MySQL, Solr, and Redis, Rspec, Mocha, FactoryGirl</code></li>
@@ -158,8 +173,29 @@
             <span class="date">Feb&nbsp;-&nbsp;July,&nbsp;2011</span>
           </p>
           <ul>
-            <li>Redesigned monitoring user interface for lobby and showcase display in commercial and educational environments</li>
+            <li data-dev data-design>Redesigned and developed monitoring user interface for lobby and showcase display in commercial and educational environments</li>
             <li>Tech: <code>PHP, MySQL, and HTML Canvas</code></li>
+          </ul>
+        </div>
+        <div class="white">
+          <h2>Clubs and Societies</h2>
+          <h3>University of Waterloo Mobile Developer Club</h3>
+          <p>
+            <span class="secondary">Co-founder</span>
+            <span class="date">May 2012&nbsp;-&nbsp;Present</span>
+          </p>
+          <ul>
+            <li data-founded>Co-founded a club for facilitating learning and competitions in the Mobile Development ecospace</li>
+            <li>Teaching mobile application development through interactive tutorials and structured lesson plans</li>
+          </ul>
+          <h3>Waterloo Engineering Society</h3>
+          <p>
+            <span class="secondary">Workshop&nbsp;Director</span>
+            <span class="date">Jan 2013&nbsp;-&nbsp;Present</span>
+          </p>
+          <ul>
+            <li>Facilitated, planned and coordinated mobile application development workshops</li>
+            <li><code>PhoneGap, Android</code></li>
           </ul>
         </div>
       </div>
@@ -168,8 +204,9 @@
           <h2>About Me</h2>
           <ul>
             <li>I love hacking into (and securing!) stuff. I once exploited a several thousand dollar contest for fun</li>
+            <li>I'm a proud <a href="http://velocity.uwaterloo.ca/">VeloCity</a> resident working on fabulous startups</li>
             <li>Parallel processing, neural networks, and machine learning really pique my interest</li>
-            <li>I started designing and programming websites in grade 6 and managed my school's computer infrastructure by grade 8</li>
+            <li data-dev data-design>I started designing and programming websites in grade 6 and managed my school's computer infrastructure by grade 8</li>
             <li>I'm a CASI certified snowboard instructor. Included with my employment are free snowboarding lessons</li>
             <li>I enjoy making sweet love sounds on my guitar and ukelele</li>
           </ul>
@@ -230,41 +267,50 @@
           	<span class="date">MadeInWaterloo.ca</span>
           </p>
           <ul>
-            <li>Founded and developed a brand to represent companies in the Waterloo Area</li>
+            <li data-founded>Founded a brand to help unify and grow the Waterloo startup ecosystem</li>
+            <li data-dev>Developed a web application to help prospective users, employees, and partners discover companies in the region</li>
+            <li data-design>Co-designed logo and website with love</li>
             <li><code>Ruby, Postgres, Sinatra, Heroku</code></li>
-          </ul>
-
-          <h3>University of Waterloo Mobile Developer Club</h3>
-          <p>
-            <span class="secondary">Co-founder</span>
-          </p>
-          <ul>
-            <li>Co-founded a club for facilitating learning and competitions in the Mobile Development ecospace</li>
-            <li>Teaching mobile application development through interactive tutorials and structured lesson plans</li>
           </ul>
 
           <h3>Twitter-Timeline</h3>
           <ul>
-            <li>Developing a tool to enable Twitter users to view their tweets in a historical manner similar to Facebook's Timeline</li>
+            <li data-dev>Developing a tool to enable Twitter users to view their tweets in a historical manner similar to Facebook's Timeline</li>
             <li><code>Twitter Bootstrap, jQuery, Ruby, Sinatra, MongoDB and Twitter API</code></li>
           </ul>
 
           <h3>HBL</h3>
           <ul>
-            <li>A distributed network of IRC bots for logging, tracking, and identification of users across multiple networks and chat names (aka Big Brother)</li>
-            <li>Developing a machine learning algorithm for clustering different user handles into people</li>
+            <li data-dev>A distributed network of IRC bots for logging, tracking, and identification of users across multiple networks and chat names (aka Big Brother)</li>
+            <li data-dev>Developing a machine learning algorithm for clustering different user handles into people</li>
             <li><code>Octave, Ruby, Resque, Redis, Cinch, and MongoDB</code></li>
           </ul>
 
           <h3>UW Don Tracker</h3>
           <ul>
-            <li>Developed a cross-platform mobile crowdsourced application to help track University of Waterloo Residence Dons' physical locations for the purposes of efficient partying</li>
+            <li data-dev>Developed a cross-platform mobile crowdsourced application to help track University of Waterloo Residence Dons' physical locations for the purposes of efficient partying</li>
             <li><code>Phonegap, Ruby, Sinatra, MongoDB, jQuery Mobile and KnockoutJS</code></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+
+  <script src='jquery-1.7.2.min.js'></script>
+  <script src='bootstrap.min.js'></script>
+  <script type="text/javascript">
+  $(function(){
+    $("[rel=tooltip]").tooltip({
+      placement: 'bottom'
+    });
+    $('#filters button').click(
+      function(){
+        var name = $(this).data('name');
+        $('[data-' + name + ']').toggleClass('highlight-' + name);
+      }
+    );
+  });
+  </script>
 </body>
 
 </html>
