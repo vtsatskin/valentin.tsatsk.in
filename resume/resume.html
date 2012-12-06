@@ -7,12 +7,12 @@
   <title>Valentin Tsatskin - Resume</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <link href='bootstrap.min.css' rel='stylesheet' />
-  <link href='bootstrap-responsive.min.css' rel='stylesheet' />
+  <link href='css/bootstrap.min.css' rel='stylesheet' />
+  <link href='css/bootstrap-responsive.min.css' rel='stylesheet' />
   <style type="text/css">
     body {
       font-family: Helvetica, Arial, sans-serif;
-      background-image: url(wall4.png);
+      background-image: url(img/wall4.png);
       color: #333;
     }
     h1, h2, h3 { color: black; }
@@ -105,7 +105,7 @@
     <div class="row">
       <div class="span6">
         <div class="white">
-          <img src="headshot.png" alt="A Headshot of Me." id="headshot" class="img-polaroid">
+          <img src="img/headshot.png" alt="A Headshot of Me." id="headshot" class="img-polaroid">
           <h1>Valentin Tsatskin</h1>
           <div class="btn-group" data-toggle="buttons-checkbox" id="filters">
             <button type="button" class="btn" data-name="founded" rel="tooltip" title="Highlight things I've founded">Founder</button>
@@ -204,17 +204,17 @@
           <h2>About Me</h2>
           <ul>
             <li>I love hacking into (and securing!) stuff. I once exploited a several thousand dollar contest for fun</li>
-            <li>I'm a proud <a href="http://velocity.uwaterloo.ca/">VeloCity</a> resident working on fabulous startups</li>
+            <li data-founded>I'm a proud <a href="http://velocity.uwaterloo.ca/">VeloCity</a> resident working on fabulous startups</li>
             <li>Parallel processing, neural networks, and machine learning really pique my interest</li>
             <li data-dev data-design>I started designing and programming websites in grade 6 and managed my school's computer infrastructure by grade 8</li>
             <li>I'm a CASI certified snowboard instructor. Included with my employment are free snowboarding lessons</li>
             <li>I enjoy making sweet love sounds on my guitar and ukelele</li>
           </ul>
           <ul class="inline">
-            <li><img src="website.png" alt="">&nbsp;<a href="http://valentin.tsatsk.in">valentin.tsatsk.in</a></li>
-            <li><img src="twitter.png" alt="">&nbsp;<a href="http://twitter.com/vtsatskin">@vtsatskin</a></li>
-            <li><img src="github.png" alt="">&nbsp;<a href="http://github.com/vtsatskin">vtsatskin</a></li>
-            <li><img src="email.png" alt="">&nbsp;<a href="mailto:val@valtsatskin.com">val@valtsatskin.com</a></li>
+            <li><img src="img/website.png" alt="">&nbsp;<a href="http://valentin.tsatsk.in">valentin.tsatsk.in</a></li>
+            <li><img src="img/twitter.png" alt="">&nbsp;<a href="http://twitter.com/vtsatskin">@vtsatskin</a></li>
+            <li><img src="img/github.png" alt="">&nbsp;<a href="http://github.com/vtsatskin">vtsatskin</a></li>
+            <li><img src="img/email.png" alt="">&nbsp;<a href="mailto:val@valtsatskin.com">val@valtsatskin.com</a></li>
           </ul>
         </div>
         <div class="white">
@@ -296,13 +296,10 @@
     </div>
   </div>
 
-  <script src='jquery-1.7.2.min.js'></script>
-  <script src='bootstrap.min.js'></script>
+  <script src='js/jquery-1.8.3.min.js'></script>
+  <script src='js/bootstrap.min.js'></script>
   <script type="text/javascript">
   $(function(){
-    $("[rel=tooltip]").tooltip({
-      placement: 'bottom'
-    });
     $('#filters button').click(
       function(){
         var name = $(this).data('name');
