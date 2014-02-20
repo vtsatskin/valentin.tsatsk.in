@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>What I do</title>
+		<style>
+			body {
+				background-color: #fcf0e4;
+				padding: 3em;
+				font-size: 16px;
+				color: #502d0f;
+				font-family: "Comic Sans MS", "Comic Sans MS", cursive;
+				text-align: center;
+			}
+
+			img {
+				margin: auto;
+				display: block;
+			}
+
+			#coding {
+				opacity: 0;
+			}
+
+			button {
+				background: #502d0f;
+				color: #FFF;
+				border: 0;
+				padding: 1em;
+				font-size: 1em;
+				border-radius: 1em;
+				margin-top: 2em;
+			}
+
+			#coding, button {
+			    -webkit-transition: all 3s ease;
+				   -moz-transition: all 3s ease;
+			  	    -ms-transition: all 3s ease;
+				     -o-transition: all 3s ease;
+				        transition: all 3s ease;
+			}
+		</style>
+		<script type="text/javascript">
+			function reveal(event) {
+				event.target.style.display = "none";
+				var coding = document.querySelector("#coding");
+				coding.style.opacity = 1;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Wondering what Val is up to right now?</h1>
+		<button onclick="reveal(event)">
+			Find Out
+		</button>
+
+		<div id="coding">
+			<img src="coding.gif">
+			<h2>He's coding.</h2>
+		</div>
+	</body>
+</html>
