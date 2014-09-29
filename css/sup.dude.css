@@ -111,3 +111,12 @@ ul .none {
 
 [class*="span"], #projects, #header {
   margin-bottom: 20px !important; }
+
+.hackathon-list {
+  list-style: none;
+  margin: 0;
+}
+  .hackathon-list li {
+    padding: 0;
+    margin-bottom: 1em;
+  }
