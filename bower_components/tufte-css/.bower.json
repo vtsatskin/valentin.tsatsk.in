@@ -1,0 +1,14 @@
+{
+  "name": "tufte-css",
+  "homepage": "https://github.com/edwardtufte/tufte-css",
+  "_release": "a2953c038d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a2953c038d86dae89aad9ced814bc685cee0ae91"
+  },
+  "_source": "git://github.com/edwardtufte/tufte-css.git",
+  "_target": "*",
+  "_originalSource": "edwardtufte/tufte-css",
+  "_direct": true
+}
