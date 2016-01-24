@@ -1,268 +1,168 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='utf-8' />
-    <title>valentin tsatskin</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta content='' name='description' />
-    <meta content='' name='author' />
-    <!-- Le styles -->
-    <link href='css/bootstrap.min.css' rel='stylesheet' />
-    <link href='css/bootstrap-responsive.css' rel='stylesheet' />
-    <link href='css/sup.dude.css' rel='stylesheet' />
-    <link href='http://fonts.googleapis.com/css?family=PT+Mono|Oxygen|Imprima|Bree+Serif' rel='stylesheet' type='text/css' />
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Le fav and touch icons -->
-    <!-- %link{:href => "ico/favicon.ico", :rel => "shortcut icon"} -->
-    <!-- %link{:href => "ico/apple-touch-icon-114-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "114x114"} -->
-    <!-- %link{:href => "ico/apple-touch-icon-72-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "72x72"} -->
-    <!-- %link{:href => "ico/apple-touch-icon-57-precomposed.png", :rel => "apple-touch-icon-precomposed"} -->
-  </head>
-  <body>
-    <!-- You're being tracked. -->
-    <script type="text/javascript">
+<head>
+  <meta charset="utf-8"/>
+  <title>Valentin Tsatskin</title>
+  <link rel="stylesheet" href="bower_components/tufte-css/tufte.css"/>
+  <link rel="stylesheet" href="bower_components/tufte-css/latex.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-36252927-1']);
-      _gaq.push(['_setDomainName', 'tsatsk.in']);
-      _gaq.push(['_trackPageview']);
+<body>
+  <article>
+    <h1>Valentin Tsatskin</h1>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+    <section>
+      <h2>About me</h2>
+      <p>
+        <span class="marginnote">
+          <img src="img/headshot.jpg" alt="Headshot of Valentin Tsatskin">
+        </span>
+        I'm a student studying Systems Design Engineering at the University of Waterloo.
+      </p>
 
-    </script>
+      <p>I am interested in Typography, Data Analysis and Display, Web Development, Software Engineering, Machine Learning and Intelligent Systems Design, Digital Rights, and Privacy.</p>
 
-    <div class='container'>
-      <div class='row'>
-        <div class='span5'>
-          <header>
-            <h1 class='nav-items'>
-              <a href='#home'>Valentin Tsatskin</a>
-            </h1>
-            <span>
-              I love to learn.<br>
-              I eat code for breakfast.<br>
-              I'm also an
-              <abbr title='Candidate for a Bachelor of Applied Science (BASc) in Systems Design Engineering at the University of Waterloo'>
-                Engineer-In-Training
-              </abbr>
-            </span>
-          </header>
-          <div id='projects'>
-            <h2>Stuff I Do</h2>
-            <ul class='nav-items'>
-              <li><a href="#learning">Learning</a></li>
-              <li><a href='#hackathons'>Hackathons</a></li>
-              <li><a href='#talks'>Talks</a></li>
-              <li><a href='#uw-don-tracker'>UW Don Tracker</a></li>
-            </ul>
-          </div>
-          <div id='contact'>
-            <h2>My Info</h2>
-            <p>
-              <a class='label label-info' href='https://www.coursera.org/user/i/85821a39976eef867432e64b0a7d2ad6'>Coursera</a>
-              <a class='label label-info' href='https://github.com/vtsatskin/'>GitHub</a>
-              <a class='label label-info' href='https://twitter.com/vtsatskin/'>Twitter</a>
-              <span class='nav-items'>
-                <a class='label label-inverse' href='valentin-resume.pdf'>Resume</a>
-              </span>
-            </p>
-            <p class='monospace'>
-              <span class='label'>Mobile</span>
-              +1 226 606 7474
-              <br />
-              <span class='label'>Email</span>
-              val@valtsatskin.com
-            </p>
-          </div>
-        </div>
-        <div class='span7' id='content'>
-          <section class='active' id='home'>
-            <img src='img/me-exploring.jpg' alt="Explore." title="Explore Everything." />
-          </section>
+      <p>You may contact me at <a href="mailto:val@valtsatskin.com">val@valtsatskin.com</a>. I'm also reachable by phone, availible on request. If you've collected enough metadata on me, you might as well just come find me.</p>
+    </section>
 
-          <section id='uw-don-tracker'>
-            <h2>UW Don Tracker</h2>
-            <p>Mobile crowdsourcing of uWaterloo Residence Don locations</p>
-            <p>
-              <em>Keeping residence live since 2012</em>
-            </p>
-            <div class='row'>
-              <div class='span4'>
-                <img src='img/uw-don-tracker.png' alt='' title='Screenshot of Client Application' />
-              </div>
-              <div class='span2'>
-                <h3>
-                  Geek Specs
-                </h3>
-                <ul class='spaced'>
-                  <li class='none'>
-                    <a class='label' href='https://github.com/vtsatskin/UW-Don-Tracker'>github</a>
-                  </li>
-                  <li class='ruby'>
-                    Ruby
-                    <ul>
-                      <li class='sinatra'>Sinatra</li>
-                      <li>Mongomapper</li>
-                    </ul>
-                  </li>
-                  <li class='mongodb'>MongoDB</li>
-                  <li>Phonegap</li>
-                  <li>jQuery</li>
-                  <li>jQuery Mobile</li>
-                  <li>Knockout JS</li>
-                </ul>
-              </div>
-            </div>
-          </section>
+    <section>
 
-          <section id='learning'>
-            <h2>Courses</h2>
-            <h3>
-              <abbr title="Free University Level Online Courses">Coursera</abbr>
-            </h3>
-            <ul class="spaced">
-              <li class="none"><a class="label" href="https://www.coursera.org/user/i/85821a39976eef867432e64b0a7d2ad6">My Profile</a></li>
-              <li><a href="https://www.coursera.org/course/progfun">Functional Programming Principles in Scala</a> (École Polytechnique Fédérale de Lausanne)</li>
-              <li><a href="https://www.coursera.org/course/hetero">Heterogeneous Parallel Programming</a> (University of Illinois)</li>
-              <li><a href="https://www.coursera.org/course/neuralnets">Neural Networks for Machine Learning</a> (University of Toronto)</li>
-              <li><a href="https://www.coursera.org/course/ml">Machine Learning</a> (Stanford University)</li>
-              <li><a href="https://www.coursera.org/course/hci">Human Computer Intraction</a> (Stanford University)</li>
-            </ul>
+      <h2>Table of Contents</h2>
+      <ul>
+        <li><a href="#work">Work Experience</a></li>
+        <li><a href="#ux">UX Designs</a></li>
+        <li><a href="#hackathons">Hackathons</a></li>
+        <li><a href="#talks">Talks</a></li>
+      </ul>
+    </section>
+
+    <section id="work">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          Machine Learning Research Co-op<br>
+          <small><i>Architech, Toronto, Sep–Dec 2015</i></small>
+        </li>
+        <li>
+          Software Engineering Intern<br>
+          <small><i>Indiegogo, San Francisco, Jan–Apr 2015</i></small>
+        </li>
+        <li>
+          User Experience Designer<br>
+          <small><i>Mozilla, San Francisco, Jan–Aug 2014</i></small>
+        </li>
+        <li>
+          Gesture Controls Software Developer<br>
+          <small><i>Thalmic Labs, Waterloo, May–Aug 2013</i></small>
+        </li>
+        <li>
+          Software Developer<br>
+          <small><i>Desire2Learn, Kitchener, Sep–Dec 2012</i></small>
+        </li>
+        <li>
+          Ruby on Rails Web Developer<br>
+          <small><i>Desire2Learn, Toronto, Jan-Apr 2012</i></small>
+        </li>
+      </ul>
+
+      <p>For more detail on selected positions, <a href="valentin-resume.pdf">please see my PDF resume</a>.</p>
+    </section>
+
+    <section id="ux">
+      <h2>UX Designs</h2>
+      <h3>Firefox Network Error Design Specifications</h3>
+      <p>
+        A proposed redesign for Firefox's Network Error pages. Most of the changes did not get implemeneted, however <a href="https://vtsatskin.github.com/fx-network-errors">I've created a writeup outlining the design</a>. <label for="sn-network-errors" class="margin-toggle sidenote-number"></label>
+        <input type="checkbox" id="sn-network-errors" class="margin-toggle"/>
+        <span class="sidenote">
+          Unfortunately there's a bug in the build script for creating these docs which causes the correct fonts not to be included.
+        </span>
+      </p>
+
+      <h3>Handling Captive Portals in Firefox</h3>
+      <p>
+        This was an attempt at fixing the frustrating experience of using a public wifi and having to painstakenly log into it. You can check out <a href="https://github.com/vtsatskin/FX-Captive-Portals-Design/blob/master/design/spec.md">the design docs on GitHub</a>.
+      </p>
+
+      <h3>Firefox for Android New Tab Experimentation</h3>
+      <p>We invisioned that switching tabs should be easy enough you can do it one-handed. You can find <a href="https://github.com/vtsatskin/Fennec-Tab-Experimentation">the designs on GitHub.</a></p>
+      <p>
+        You can also <a href="https://vtsatskin.github.com/Fennec-Tab-Experimentation/prototype">try an interactive web demo</a> which conveys the interaction design details. We also built <a href="https://github.com/notonepine/TabSwitcher">an Android app demo</a> if you know how to sideload apps.
+      </p>
+    </section>
+
+    <section id="hackathons">
+      <h2>Hackathons</h2>
+      <p>
+        I both participate in and organize hackathons.<label for="sn-hackathon" class="margin-toggle sidenote-number"></label>
+        <input type="checkbox" id="sn-hackathon" class="margin-toggle"/>
+        <span class="sidenote">A Hackathon is “an event, typically lasting several days, in which a large number of people meet to engage in collaborative computer programming”—<em>New Oxford American Dictionary</em></span> Most of the time I will have something worthwhile to show for. A curated list of such times is provided below.
+      </p>
+
+      <h3>Hack the North</h3>
+      <p>
+        I helped co-found Canada's largest hackathon.
+        <label for="mn-htnlogo" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn-htnlogo" class="margin-toggle"/>
+        <span class="marginnote">
+          <img src="img/htn-logo.svg" style="max-width: 200px" alt="Hack the North Logo">
+        </span>
+        I was involved in the first two itterations which occured in 2014 and 2015. It attracted 1000+ hackers from 100 schools in 10 countries.
+      </p>
+
+      <p>
+        My major involvement was <a href="http://hackthenorth.com">leading the website team</a>. I also happened to MC both times and I'm not really sure why anyone thought I would do a good job at that.
+      </p>
+
+      <h3>NavajoChat</h3>
+      <p>
+        I created a proof of concept Google Chrome extension to encrypt transmission of Facebook messages. The messages are not stored in plain text on the server and thus can only be read by the intended audiences. You can <a href="https://www.youtube.com/watch?v=UDh5X_RjTPY">watch a demo video on YouTube</a>.
+      </p>
+
+      <p>
+        For the curious, it uses OpenGPG for encryption. This isn't a serious attempt at securing your messages and there's probably plenty of holes. The code is <a href="https://github.com/vtsatskin/NavajoChat">open sourced on GitHub</a>.
+      </p>
+
+      <h3>Lunch Roulette</h3>
+      <p>
+        We created an android app to pair you up with strangers to have lunches with. <a href="https://www.youtube.com/watch?v=saIIK2d_2TU">A silly promotional video is on YouTube</a>.
+      </p>
+
+      <p>
+        I worked on the interface design. You can check out the design process in our <a href="projects/lunch.roulette.pdf">slide deck (PDF)</a>. This occured at the inaugral <a href="http://http://hacktech.io">Hacktech</a> in 2014.
+      </p>
 
 
-            <h3>University of Waterloo</h3>
-            <p><em>Systems Design Engineering</em></p>
+      <h3>SurroundSound</h3>
+      <p>
+        My teammates and I tried to create a solution for delivering music most people at a social event would like. We attempt to provide a curated YouTube playlist for a DJ based on attendee's music preferences. I think it worked once.
 
-            <h4>2B</h4>
-            <ul class="spaced">
-              <li>Organizational Design &amp; Technology (MSCI 311)</li>
-              <li>Cognitive Processes (PSYCH 207)</li>
-              <li>Probability and Statistics (SYDE 212)</li>
-              <li>Linear Systems and Signals (SYDE 252)</li>
-              <li>Engineering Economics of Design (SYDE 262)</li>
-              <li>Mechanics of Deformable Solids (SYDE 286)</li>
-              <li>Circuits, Instrumentation, and Measurements (SYDE 292)</li>
-            </ul>
+        The code is <a href="https://github.com/mHacks-UWProject/SurroundSound">open-sourced on GitHub</a>. This occured at the inaugral <a href="http://mhacks.org">MHacks</a> in 2012.
+      </p>
+    </section>
 
-            <h4>2A</h4>
-            <ul class="spaced">
-              <li>Advanced Engineering Math 1 (SYDE 211)</li>
-              <li>Data Structures and Algorithms (SYDE 223)</li>
-              <li>Design, Systems, and Society (SYDE 261)</li>
-              <li>Physics 3 (Electricity, Magnetism and Optics) (SYDE 283)</li>
-              <li>Materials Chemistry (SYDE 285)</li>
-            </ul>
+    <section id="talks">
+      <h2>Talks</h2>
+      <h3>Improving Firefox Network Error Experiences</h3>
+      <p>I discuss redesigning the experience of dealing with network related errors in Firefox. The goal: Less frustration, more browsing.</p>
+      <iframe src="https://air.mozilla.org/network-error-experiences/video/" width="640" height="380" frameborder="0" allowfullscreen=""></iframe>
+      <p>
+        <a href="https://air.mozilla.org/network-error-experiences/">▶ Watch on Air Mozilla</a> or check out the
+        <a href="https://docs.google.com/a/valtsatskin.com/presentation/d/1Mm5eRfbJGpkl4KuTqn6u9UcWHE8ANTCn1a7f5svQ5Zs/view">slides</a>.
+      </p>
 
-            <h4>1B</h4>
-            <ul class="spaced">
-              <li>Introductory Psychology (PSYCH 101)</li>
-              <li>Human Factors in Design (SYDE 162)</li>
-              <li>Numerical and Applied Calculus (SYDE 114)</li>
-              <li>Physics 2 (Dynamics) (SYDE 182)</li>
-              <li>Digital Systems (SYDE 192)</li>
-              <li>Digital Systems Laboratory (SYDE 192L)</li>
-            </ul>
+      <h3>Version controlled, open source design documents</h3>
+      <p>
+        A guided tour through my design methodology which introduces version control and open source thinking to User Experience design.
+      </p>
 
-            <h4>1A</h4>
-            <ul class="spaced">
-              <li>Graphics Laboratory (SYDE 101L)</li>
-              <li>Fundamental Engineering Math 1 (SYDE 111)</li>
-              <li>Matrices and Linear Systems (SYDE 113)</li>
-              <li>Introduction to Design (SYDE 161)</li>
-              <li>Digital Computation (C++) (SYDE 121)</li>
-              <li>Physics 1 (Statics) (SYDE 181)</li>
-            </ul>
-          </section>
+      <iframe src="https://air.mozilla.org/intern-presentations-22/video/" width="640" height="380" frameborder="0" allowfullscreen=""></iframe>
 
-          <section id='hackathons'>
-            <h2>Past Hackathons and Projects</h2>
-            <ul class="hackathon-list">
-              <li>
-                <h3>
-                  <a href="http://hackthenorth.com/">Hack The North</a>
-                </h3>
-                Kickstarted Canada’s largest hackathon attracting 1000+ hackers from 100 schools in 10 countries. Built everything from the website to the actual event and everything in between.
-              </li>
-              <li>
-                <h3>
-                  <a href="https://www.youtube.com/watch?v=saIIK2d_2TU">Lunch Roulette</a>
-                  (Hacktech 2014)
-                </h3>
-                An android app to pair you up with strangers to have amazing lunches with. You can even check out a <a href="http://valentin.tsatsk.in/projects/lunch.roulette.pdf">slide deck of our design and process</a>.
-              </li>
-              <li>
-                <h3>HackMIT</h3>
-                Selflessly helped all my friends with their projects, didn't get time to hack on my own.
-              </li>
-              <li>
-                  <h3>MHacks II</h3>
-                  Lots of small little projects, not too interesting.
-              </li>
-              <li>
-                <h3>
-                  <a href="https://github.com/vtsatskin/NavajoChat">NavajoChat</a>
-                  (PennApps 2013)
-                </h3>
-                A chrome extension for seamless encryption of Facebook messages. Even made a quick and dirty <a href="http://www.youtube.com/watch?v=UDh5X_RjTPY">demo video</a>.
-              </li>
-              <li>
-                <h3>
-                  Top Pics
-                  (CUTC Toronto 2012, 2nd Place Winner)
-                </h3>
-                A tool for aggregating the best photos from your social network.
-              </li>
-              <li>
-                <h3>
-                  <a href="https://github.com/mHacks-UWProject/SurroundSound">SurroundSound</a>
-                  (MHacks I, 2012)
-                </h3>
-                A solution to bad music at social events. Provies a currated youtube playlist to a DJ from the attendees music preferences.
-              </li>
-              <li>
-                <h3>
-                  <a href="https://github.com/vtsatskin/Icebreaker">Icebreaker</a>
-                  (uWaterloo Facebook Hackathon 2012)
-                </h3>
-                Shows you what you have in common with the people around along with something to say to help "break the ice".
-              </li>
-            </ul>
-          </section>
-
-          <section id='talks'>
-            <h2>Words I have spoken</h2>
-            <h3>Improving Firefox Network Error Experiences <small>April 21, 2014</small></h3>
-            <p>I discuss redesigning the experience of dealing with network related errors in Firefox. The goal: Less frustration, more browsing.</p>
-            <iframe src="https://air.mozilla.org/network-error-experiences/video/" width="640" height="380" frameborder="0" allowfullscreen></iframe>
-            <p>
-              <a href="https://air.mozilla.org/network-error-experiences/">&#9654; Watch on Air Mozilla</a> or check out the
-              <a href="https://docs.google.com/a/valtsatskin.com/presentation/d/1Mm5eRfbJGpkl4KuTqn6u9UcWHE8ANTCn1a7f5svQ5Zs/view">slides</a>.
-            </p>
-
-            <h3>
-              Version controlled, open source design documents
-              <small>August 28th, 2014</small>
-            </h3>
-            <p>A guided tour through my design methodology which introduces version control and open source thinking to User Experience design.</p>
-            <iframe src="https://air.mozilla.org/intern-presentations-22/video/" width="640" height="380" frameborder="0" allowfullscreen></iframe>
-            <p>
-              <a href="https://air.mozilla.org/intern-presentations-22/">&#9654; Watch on Air Mozilla</a> or check out the
-              <a href="https://docs.google.com/a/valtsatskin.com/presentation/d/1Mm5eRfbJGpkl4KuTqn6u9UcWHE8ANTCn1a7f5svQ5Zs/view">slides</a>.
-            </p>
-          </section>
-        </div>
-      </div>
-    </div>
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src='js/jquery-1.7.2.min.js'></script>
-    <script src='js/jquery.scrollTo-1.4.2-min.js'></script>
-    <script src='js/vt.js'></script>
-  </body>
+      <p>
+        <a href="https://air.mozilla.org/intern-presentations-22/">▶ Watch on Air Mozilla</a> or check out the
+        <a href="https://docs.google.com/a/valtsatskin.com/presentation/d/1Mm5eRfbJGpkl4KuTqn6u9UcWHE8ANTCn1a7f5svQ5Zs/view">slides</a>.
+      </p>
+    </section>
+  </article>
+</body>
 </html>
