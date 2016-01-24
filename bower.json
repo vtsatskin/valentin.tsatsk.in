@@ -1,0 +1,19 @@
+{
+  "name": "valentin.tsatsk.in",
+  "homepage": "http://valentin.tsatsk.in",
+  "authors": [
+    "Valentin Tsatskin <val@valtsatskin.com>"
+  ],
+  "description": "Valentin Tsatskin's personal website",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
