@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/vtask
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://valentin.tsatsk.in
+  * I am vtask (https://keybase.io/vtask) on keybase.
+  * I have a public key with fingerprint 61DB 3B91 BF7C CCA1 8498  E280 9B8E 4D3A 556F 3566
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e02289b55000fd714b49094e799550e3b1d13dec642324bb40f783d6c6cf0e7f0a",
+            "fingerprint": "61db3b91bf7ccca18498e2809b8e4d3a556f3566",
+            "host": "keybase.io",
+            "key_id": "9b8e4d3a556f3566",
+            "kid": "0101e02289b55000fd714b49094e799550e3b1d13dec642324bb40f783d6c6cf0e7f0a",
+            "uid": "553ab7de5d85da1cb1e5afa9e0231f19",
+            "username": "vtask"
+        },
+        "service": {
+            "hostname": "valentin.tsatsk.in",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472511706,
+    "expire_in": 157680000,
+    "prev": "1d143ea84f361981f5191fce90818c97e15eca4e752bba9cff62f18629db08ab",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIrAnicrVJdbAxRGN3Volp040Wp3wlRUs3cmbkzcxehD4Q0IkizD22se2fu3U63
+ZtbMdGvTlERC/UZokEYagjZRoURFeJCqRqT1IItUmiCkgviJ+IuIqDsNbx493dzv
+O+d85zv5+iblhPLD7750olOT41XhgVut9aFY382hRoE4ZkaINgpJOvrQOpN6fjxp
+mUJUEIEIqChJOiIQiqLITA0oREEiUqiGEK9RmQATyCY1VEWSJYUQRWSaLpuqoRpM
+pBoTsVAqMMtOUDflWrbPZVVgEpkgQJhmGAYGuoJ0KukiIjpVTBlDqDIZqion1jhe
+wODmCPZomeXwGv/ER+39A/+ffdePykEoY6KZFJo6NDEwCKAQM4z4CBkwgAKgR10b
+b6EcnfaxlxSaSgVeSlsGDVIN1vjbxnXU9i27zPew7yXLLJvTU67jO4ZTx/s1vp+K
+BnQ/kwrwDZTE/yjFiWWbPElOSFPXsxxbiAKONHwrkAaKJkEANFEtFei2lOXSuBUg
+oKbqPAQxGEPTXJJvrsgU6wqTVYB0wCBAgBkUiTrQDaRRAKmBeVRQIgQjgzFVYkBX
+JWQSUcdECHbbajtCVOY2cYJLelbCxn69S4Wm3p7q3FA4PzRu7JjgwkL5EyJ/7+4m
+ywvt33ZoLJld8X3iTHS+e/7gwmJY2dzb4F7Kjn+VPnO3/NTrC83tLXk/+zYff98Y
+WveGfFqaze75oZzef/LDxuJjsezU3ZUFhx6uPtNx9vLiwSPDz0t6ql5X3qh71nY/
+UzTjXtem20/mFvy6kiwb2huBsQ9DqwZi/YOFOUW/Euemj3T2ZCqqkt1d7Qetn2v9
+nXe+hGjL8lgTWXGx49Y8ZVrr+u0Vs65/vvqxfLi2IVd/erR8VnZRb8G1tY9f9ubs
+gEf7ut9+/dbWUnLgtltVO2fK9TUfzy6cPvLo3YPBcOGRrp0jmZUbahcU5+6b+GLM
+su+74rC/Opxc4uSX9hzeNeFEJHIVe5tY82+eHEON
+=Q0jB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vtask
+
+==================================================================
